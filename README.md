@@ -1,4 +1,5 @@
 # SudokuSolver
 A Sudoku Solving backtracking algorithm written in python
 Please Feel free to contribute to the code
-The code isn't fully original i am basing this off other peoples code
+
+The way the code works isn't fully original the way it works is based off other peoples code i have just edited it
