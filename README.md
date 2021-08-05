@@ -1,6 +1,5 @@
 # SudokuSolver
-A Sudoku Solving backtracking algorithm written in python
-Please Feel free to contribute to the code
+This sudoku solver uses a backtracking algorithm which is a brute force method of solving sudoku
 
 ## How to use
 
