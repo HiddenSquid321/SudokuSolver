@@ -3,7 +3,7 @@ This sudoku solver uses a backtracking algorithm which is a brute force method o
 
 ## How to use
 
-To represent the Sudoku puzzle input the numbers in their relevant positons into the array called grid
+To represent the Sudoku puzzle input the numbers in their relevant positons into the array declares as grid
 
 ## Libraries
 - Make sure you have Numpy installed if you don't, run the command: `pip install numpy`
