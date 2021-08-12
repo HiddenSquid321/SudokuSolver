@@ -1,5 +1,7 @@
 # SudokuSolver
-This sudoku solver uses a backtracking algorithm which is a brute force method of solving Sudoku
+
+## How it works
+This program uses a backtracking algorithm to solve the Sudoku puzzle this is a brute force method of solving a Sudoku puzzle there is more efficient ways of it working such as using a constraint based programming language. A backtracking algorithm designed to solve Sudoku puzzles works by trying numbers in empty spots until there arent anymore possible numbers it then backtracks and tries other numbers in the slots before until it reaches a valid grid where none of the numbers conflict.
 
 ## How to use
 
