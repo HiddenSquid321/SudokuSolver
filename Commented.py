@@ -20,7 +20,7 @@ def find_empty_box(sudoku):
 	for y in range(9): # Ranged for loop 
 		for x in range(9):
 			if sudoku[y][x] == 0: # Checks for boxes equal to zero which represents an empty box
-				return x, y 
+				return y, x 
 	
 	return None, None # This for if there are no empyt boxes in the puzzles
 
