@@ -38,8 +38,8 @@ def Answer_Valid(sudoku, guess, row, col):
 	col_start = (col // 3) * 3
 	
 	# for loops and if statements to check if the box is valid
-	for x in range(row_start, row_start + 3): 
-		for y in range(col_start, col_start + 3):
+	for y in range(row_start, row_start + 3): 
+		for x in range(col_start, col_start + 3):
 			if sudoku[y][x] == guess:
 				return False
 
