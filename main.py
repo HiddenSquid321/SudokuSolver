@@ -16,9 +16,9 @@ grid = [[4,3,0,0,0,0,0,0,0],
 print (np.matrix(grid))
 
 def find_empty_box(sudoku): 
-	for x in range(9):
-		for y in range(9):
-			if sudoku[x][y] == 0:
+	for y in range(9):
+		for x in range(9):
+			if sudoku[y][x] == 0:
 				return x, y 
 	
 	return None, None
@@ -37,7 +37,7 @@ def Answer_Valid(sudoku, guess, row, col):
 
 	for x in range(row_start, row_start + 3):
 		for y in range(col_start, col_start + 3):
-			if sudoku[x][y] == guess:
+			if sudoku[y][x] == guess:
 				return False
 
 		return True
