@@ -11,4 +11,4 @@ To represent the Sudoku puzzle you wish to solve input the numbers in their rele
 Make sure you have Numpy installed if you don't, run the command: `pip install numpy`
 
 ## Contributing
-If there is anything you feel you can improve or you wish to write it in a different language feel free to open a pull request
+If there is anything you feel you can improve feel free to fork this repository and push the changes if you feel they have some kind of benefit
