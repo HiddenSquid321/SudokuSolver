@@ -8,7 +8,7 @@ This program uses a backtracking algorithm to solve the Sudoku puzzle this is a 
 To represent the Sudoku puzzle you wish to solve input the numbers in their relevant positons into the array declared as grid and then simply run the program using the command `python filename.py`
 
 ## Python Libraries
-Make sure you have Numpy installed if you don't, run the command: `pip install numpy`
+Make sure you have Numpy installed as it is used to print the grid in the format of a matrix. if you don'thave numpy installed run the command: `pip install numpy`
 
 ## Contributing
 If there is anything you feel you can improve feel free to fork this repository and push the changes if you feel they have some kind of benefit
