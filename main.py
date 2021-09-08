@@ -59,6 +59,22 @@ def Solver(sudoku):
 
 	return False
 
+#Check that the Sudoku grid is 9 x 9
+def CheckLen(sudoku):
+        i=len(sudoku)
+        if i !=9:
+           #Table isn't 9 x 9 - return false
+           return False
+        else:
+           for j in range(9):
+                if len(sudoku[j]) !=9:
+                        #One of the lines doesn't have 9 places - return false
+                        return False
+
+if CheckLen(grid)==False:
+        #Terminate the program - the sudoku isn't 9 x 9
+        exit()
+
 print(Solver(grid))
 
 print(np.matrix(grid))
